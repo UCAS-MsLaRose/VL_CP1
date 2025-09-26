@@ -10,4 +10,11 @@ num_two = "3"
 
 print(num+num_two)
 
-# Run-Time Errors
+
+# Run-Time Errors - The code will start running and it will not finish
+import random
+
+while True:
+    denomenator = random.randint(0,5)
+
+    print(10/denomenator)

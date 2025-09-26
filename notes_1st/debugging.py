@@ -13,4 +13,8 @@ print(numone + numtwo)
 # Have well thought out plan, Step by step go through our logic 
 
 # Run-time Error
+import random
+while True:
+    denominator = random.randint(0,5)
 
+    print(10/denominator)
